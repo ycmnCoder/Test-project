@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'IRANYekan';
+    src: url(./IRANYekan/IRANYekanXFaNum-Light.woff2);
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'IRANYekan';
+    src: url(./IRANYekan/IRANYekanXFaNum-Regular.woff2);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'IRANYekan';
+    src: url(./IRANYekan/IRANYekanXFaNum-Medium.woff2);
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'IRANYekan';
+    src: url(./IRANYekan/IRANYekanXFaNum-DemiBold.woff2);
+    font-weight: bold;
+} 
+@font-face {
+    font-family: 'IRANYekan';
+    src: url(./IRANYekan/IRANYekanXFaNum-Bold.woff2);
+    font-weight: Bolder;
+}  
+body{
+    font-family: 'IRANYekan';
+}
+
+#mobile-menu {
+    height: 100vh; /* ارتفاع منو برابر با ارتفاع کل صفحه */
+    overflow-y: auto; /* اگر محتوا بیشتر از ارتفاع صفحه باشد، اسکرول فعال می‌شود */
+}
